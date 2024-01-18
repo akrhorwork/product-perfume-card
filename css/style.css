@@ -1,0 +1,132 @@
+/* FONTS */
+@font-face {
+  font-display: swap;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/montserrat-v26-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/montserrat-v26-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/fraunces-v31-latin-700.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  display: flex;
+  object-fit: cover;
+}
+
+body {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #6c7289;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2eae2;
+}
+
+h2 {
+  font-family: "Fraunces", sans;
+}
+
+.card {
+  background-color: #ffffff;
+  display: flex;
+  width: 600px;
+  border-radius: 10px;
+}
+
+.card__image {
+  border-radius: 10px 0 0 10px;
+}
+.card__content {
+  padding: 32px;
+}
+
+.card__label {
+  margin-bottom: 20px;
+  font-size: 12px;
+  letter-spacing: ;
+}
+
+.card__title {
+  color: #1c232b;
+  margin-bottom: 24px;
+  font-size: 32px;
+  line-height: 32px;
+}
+.card__description {
+  margin-bottom: 29px;
+}
+
+.card__prices {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.card__big-price {
+  color: #3d8168;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.card__mini-price {
+  font-size: 13px;
+  text-decoration: line-through;
+  line-height: 23px;
+}
+
+.card__btn {
+  width: 100%;
+  padding: 16px 0;
+  border-radius: 8px;
+  background-color: #3d8168;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.card__btn:hover {
+  background-color: #1a4032;
+}
